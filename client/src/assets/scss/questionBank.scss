@@ -1,0 +1,131 @@
+@import './varible';
+.question-bank {
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    .option {
+      .ant-input-search {
+        margin-right: 10px;
+      }
+      .ant-input {
+        padding: 8px 0 8px 8px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        font-weight: 450;
+        font-size: 1rem;
+      }
+      .ant-input,
+      .ant-input:hover,
+      .ant-input:focus {
+        outline: none;
+        border: none;
+        box-shadow: none;
+      }
+      .btn-primary {
+        padding: 4px 12px;
+      }
+      .ant-btn-default {
+        z-index: 1;
+        min-width: 36px;
+        min-height: 36px;
+      }
+      .ant-input-group-addon {
+        .ant-btn-default {
+          width: 28px;
+          min-width: 0;
+        }
+      }
+      .ant-input-group-addon {
+        padding-right: 3px;
+        background-color: #fff;
+      }
+      .ant-input-search-button {
+        border-radius: 4px !important;
+        background-color: $primary-color;
+        border: none;
+        color: #fff !important;
+      }
+
+      .select {
+        min-width: 300px;
+        .ant-select-selector {
+          border-radius: 4px;
+        }
+      }
+    }
+    .create-question {
+      .ant-btn {
+        background: $primary-color;
+        color: #fff;
+        border-radius: 4px;
+        border-color: #fff;
+      }
+    }
+  }
+
+  .question-list {
+    .checkAll {
+      margin-left: 20px;
+      padding: 5px 0;
+    }
+    .check-option {
+      padding: 5px;
+      border-radius: 4px;
+      margin-left: 10px;
+    }
+    .ant-collapse {
+      font-size: 16px;
+    }
+    .ant-collapse-header {
+      padding: 22px !important;
+    }
+    .panel--header {
+      .question--number {
+        font-weight: 600;
+      }
+      .ant-divider {
+        margin: 0 10px;
+        border-color: rgb(230, 230, 230);
+        font-size: 40px !important;
+      }
+    }
+    .ant-collapse-item {
+      background-color: #fff !important;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+    .ant-divider {
+      margin: 0px;
+      border-color: rgb(230, 230, 230);
+    }
+    .ant-collapse-content-box {
+      padding: 0 12px 12px !important;
+    }
+    .anticon {
+      padding: 10px;
+    }
+    .anticon-delete {
+      color: red;
+    }
+    .question--detail {
+      font-size: 14px;
+      .detail {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        .question--answer {
+          width: 35%;
+        }
+        .question--info {
+          width: 40%;
+          .info {
+            display: inline-block;
+            padding: 10px;
+            width: 50%;
+          }
+        }
+      }
+    }
+  }
+}

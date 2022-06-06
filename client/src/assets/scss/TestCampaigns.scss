@@ -1,0 +1,145 @@
+.test_campaigns {
+  .ant-switch {
+    margin-right: 30px;
+  }
+
+  .link_copy {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .link_copy span:nth-child(2) {
+    cursor: copy;
+  }
+
+  .anticon-delete {
+    color: red;
+  }
+}
+
+.result_campaign {
+  .details {
+    display: flex;
+
+    img {
+      display: block;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .ant-col .white_bg {
+      height: 100%;
+    }
+
+    .ant-col:nth-child(4) .white_bg {
+      padding: 20px 0;
+    }
+  }
+
+  table {
+    width: 100%;
+
+    td,
+    th {
+      padding: 8px 0;
+    }
+
+    tr {
+      border-bottom: 0.5px ridge #ddd;
+    }
+
+    tr:last-child {
+      border-bottom: none;
+    }
+
+    tr:first-child {
+      color: $SilverColor;
+      font-size: 12px;
+    }
+
+    .anticon-delete {
+      color: red;
+    }
+
+    td:nth-child(2) {
+      display: flex;
+
+      .ant-progress {
+        margin: 0 15px;
+      }
+    }
+  }
+}
+
+.ant-popover {
+  width: 400px;
+
+  .ant-col-24 a {
+    background: #eee;
+    color: #333;
+    padding: 2px 10px;
+    border-radius: 30px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+  }
+
+  .ant-popover-inner-content > .ant-row > .ant-col:nth-child(1),
+  .ant-row .ant-col:nth-child(2) {
+    background-color: $FocusLink;
+    padding: 7px;
+    color: #eee;
+
+    a {
+      color: #eee;
+      margin: 5px;
+      font-weight: 700;
+    }
+
+    span {
+      margin-left: 3px;
+    }
+  }
+
+  .ant-popover-inner-content {
+    padding: 0;
+  }
+
+  .ant-row {
+    margin: 0 !important;
+    padding-bottom: 5px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .ant-popover-arrow {
+    display: none;
+  }
+}
+
+.question_statistic {
+  table {
+    width: 100%;
+
+    td,
+    th {
+      padding: 8px 0;
+    }
+
+    tr {
+      border-bottom: 0.5px ridge #ddd;
+    }
+
+    tr:last-child {
+      border-bottom: none;
+    }
+
+    tr:first-child {
+      color: $SilverColor;
+      font-size: 12px;
+    }
+  }
+}

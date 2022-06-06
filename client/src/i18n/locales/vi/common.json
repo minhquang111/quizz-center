@@ -1,0 +1,32 @@
+{
+  "header": {
+    "dashboard": "Tổng quan",
+    "category": "Nhóm đề thi",
+    "test": "Đề thi",
+    "test_campaign": "Đợt thi tuyển",
+    "question_bank": "Ngân hàng đề",
+    "statistic": "Thống kê",
+    "language": "EN",
+    "img": "https://app.testcenter.vn/images/lang/uk_flag.png"
+  },
+  "button": {
+    "result": "Kết Quả",
+    "cancel": "Hủy",
+    "save": "Lưu",
+    "edit": "Sửa",
+    "move": "Di chuyển",
+    "delete": "Xóa",
+    "update": "Cập Nhật",
+    "ok": "Đồng ý",
+    "yes": "Chấp nhận",
+    "copy_link": "Sao chép liên kết",
+    "setting": "Cài Đặt",
+    "duplicate": "Nhân bản",
+    "export_excel": "Xuất tệp excel",
+    "print": "In"
+  },
+  "choose": {
+    "yes": "Có",
+    "no": "Không"
+  }
+}

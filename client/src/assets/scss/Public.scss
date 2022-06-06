@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+}
+
+p,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.white_bg {
+  background-color: white;
+  border-radius: 6px;
+}
+
+.pd_20 {
+  padding: 20px;
+}
+
+.pd_15 {
+  padding: 15px;
+}
+
+.pdrbl_20 {
+  padding: 0 20px 20px 20px;
+}
+
+.font_weight_bold {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.mgt_24 {
+  margin-top: 24px;
+}
+
+.dot {
+  // margin-top: 8px;
+  height: 15px;
+  width: 15px;
+  background-color: $Online;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.required {
+  color: red !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $HoverLink;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $FocusLink;
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected a {
+  color: $FocusLink;
+  font-weight: 700;
+}
+
+.ant-menu-horizontal > .ant-menu-item a:hover {
+  color: $FocusLink;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active:after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open:after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected:after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover:after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active:after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open:after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected:after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover:after {
+  border-bottom: 2px solid $FocusLink;
+}
+
+.ant-btn-primary {
+  border-color: $Btn;
+  background: $Btn;
+  color: $TextBtn;
+}
+
+.ant-btn-primary:focus,
+.ant-btn-primary:hover {
+  border-color: $BtnHover;
+  background: $BtnHover;
+  color: $TextBtnHover;
+}
+
+.ant-btn {
+  border-radius: 0.25rem;
+  box-shadow: none;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn,
+.ant-tabs-tab:hover {
+  color: $FocusLink;
+}
+
+.anticon-calendar {
+  color: $FocusLink;
+}
+
+h6 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.ant-message-notice {
+  margin-left: 85vw;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.ant-collapse-header {
+  font-weight: 700;
+}
+
+.ant-collapse-extra {
+  font-size: 12px;
+  color: #6c757d;
+  font-weight: 400;
+}
+
+.pass {
+  border-radius: 10rem;
+  background: $Pass;
+  padding: 4px 7px;
+  color: white;
+}
+
+.not_pass {
+  border-radius: 10rem;
+  background: $NotPass;
+  padding: 4px 7px;
+  color: white;
+}
+
+.ant-tag .anticon-close {
+  color: #eee;
+  background-color: #2c4a9f;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.ant-tag-close-icon:hover {
+  color: #eee;
+}
+
+.ant-tag {
+  background: rgba(44, 74, 159, 0);
+  color: #2c4a9f;
+  padding: 2px 10px;
+  border-radius: 31px;
+  border: 1px solid #2c4a9f;
+  margin-bottom: 5px;
+}
